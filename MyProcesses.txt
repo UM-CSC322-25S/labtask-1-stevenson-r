@@ -1,0 +1,4 @@
+Imagine you start a program from your command line prompt.
+What is your program's parent process? When you start a program from your command line, the parent process is usually the shell (zsh).
+What is that process' parent process? The process that launched the shell (launchd).
+What is that process' parent process? The system init process(sometimes known as systemd). 

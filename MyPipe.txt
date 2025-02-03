@@ -1,0 +1,3 @@
+Devise a minimal pipeline command that will print the number of files and subdirectories in the current directory (including hidden ones, but not the current and parent directory entries).
+
+ls -A | wc -l
